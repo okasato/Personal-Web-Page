@@ -24,8 +24,18 @@ export default class Project extends Component {
             title={this.props.imageTitle}
           />
           <CardContent>
+            <Typography variant='title' color='primary'>
+              {this.props.jobtitle}
+            </Typography>
+            <Typography variant='subheading' color='textSecondary'>
+              {this.props.date}
+            </Typography>
             <Typography component='p'>
               {this.props.description}
+            </Typography>
+            <br />
+            <Typography component='p'>
+              Technologies: {this.props.technologies}
             </Typography>
             <br />
             <Typography component='p'>
