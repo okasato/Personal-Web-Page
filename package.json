@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "hack": "webpack && webpack-dev-server --inline",
+    "postinstall": "webpack",
     "start": "node app.js"
   },
   "repository": {
