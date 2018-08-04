@@ -35,11 +35,10 @@ export default class Project extends Component {
             </Typography>
             <br />
             <Typography component='p'>
-              Technologies: {this.props.technologies}
+              {this.props.technologies}
             </Typography>
             <br />
             <Typography component='p'>
-              <i class="fab fa-github"></i>
               {this.props.github}
             </Typography>
           </CardContent>
