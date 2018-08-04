@@ -12,7 +12,9 @@ export default class AboutUs extends Component {
       <div className='header'>
         <Typography className='headline' align='center' variant='display1' color='textSecondary' gutterBottom>Hello, I'm</Typography>
         <Typography align='center' variant='display3' color='textSecondary' gutterBottom>Shingo Konnai,</Typography>
-        <Typography align='center' variant='display2' color='textSecondary' gutterBottom>a software engineer based in Canada.</Typography>
+        <Typography align='center' variant='display1' color='textSecondary' gutterBottom>
+          a <span className='engineer'>software engineer</span> based in Canada.
+        </Typography>
         <ContactMe />
       </div>
     )
