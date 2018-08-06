@@ -82,6 +82,7 @@ export default class MyProjects extends Component {
               </div>
             }
             image={'meetup_2.png'}
+            jobtitle={' '}
             imageTitle={'Tough But Fun! Let\'s Start Learning Sorting Algorithms!'}
             date={'February 2018'}
             description={'I talked about sorting algorithms for beginners. I briefly gave lectures on four sorting algorithms, then pseudo-code through some quizes. This meetup covered Selection Sort, Shaker Sort (Improved Bubble Sort), Heap Sort, "Inefficient" Sort.'}
@@ -91,6 +92,7 @@ export default class MyProjects extends Component {
             title={'What is happening behind APIs?'}
             image={'meetup_1.png'}
             imageTitle={'What is happening behind APIs?'}
+            jobtitle={' '}
             date={'December 2017'}
             description={
               <div>
