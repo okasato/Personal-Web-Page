@@ -60,9 +60,9 @@ export default class MyProjects extends Component {
             technologies={'Technologies: React, Redux, Node.js, Express, Passport.js, Knex.js, PostgreSQL, Google Translation API, Web Speech API'}
           />
           <Project
-            title={'Resque Drone Q9'}
+            title={'Rescue Drone Q9'}
             image={'q9.png'}
-            imageTitle={'resque drone q9'}
+            imageTitle={'rescue drone q9'}
             jobtitle={'Frontend Software Engineer'}
             date={'February 2018'}
             description={'Resque Drone Q9 is the drone delivery app for resque. I implemented "Flight Plan Creation Form" using React, Redux, Google Maps API & AirMap API. Our team presented the minimum viable product in the headquater of Rakuten AirMap.'}
