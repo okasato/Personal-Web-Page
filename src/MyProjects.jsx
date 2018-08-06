@@ -65,7 +65,7 @@ export default class MyProjects extends Component {
             imageTitle={'rescue drone q9'}
             jobtitle={'Frontend Software Engineer'}
             date={'February 2018'}
-            description={'Resque Drone Q9 is the drone delivery app for resque. I implemented "Flight Plan Creation Form" using React, Redux, Google Maps API & AirMap API. Our team presented the minimum viable product in the headquater of Rakuten AirMap.'}
+            description={'Rescue Drone Q9 is the drone delivery app for resque. I implemented "Flight Plan Creation Form" using React, Redux, Google Maps API & AirMap API. Our team presented the minimum viable product in the headquater of Rakuten AirMap.'}
             github={
               <div>
                 <i class="fab fa-github"></i>
