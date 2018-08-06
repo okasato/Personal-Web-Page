@@ -15,7 +15,9 @@ export default class AboutUs extends Component {
         <Typography align='center' variant='display1' color='textSecondary' gutterBottom>
           a <span className='engineer'>software engineer</span> based in Canada.
         </Typography>
-        <ContactMe />
+        <div className='contactInfoHeader'>
+          <ContactMe />
+        </div>
       </div>
     )
   }

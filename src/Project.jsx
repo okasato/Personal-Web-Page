@@ -13,8 +13,9 @@ export default class Project extends Component {
   render() {
     return (
       <div className='project'>
-        <Card className='cards'> 
+        <Card className='media'> 
           <CardHeader
+            className='cardHeader'
             title={this.props.title}
             subheader={this.props.link}
           />
@@ -23,6 +24,8 @@ export default class Project extends Component {
             image={this.props.image}
             title={this.props.imageTitle}
           />
+        </Card>
+        <Card className='content'>
           <CardContent>
             <Typography variant='title' color='primary'>
               {this.props.jobtitle}

@@ -8,6 +8,10 @@
   font-weight: bold;
 }
 
+.contactInfoHeader {
+  padding: 50px 0 0 0;
+}
+
 .headline {
   padding: 50px 0 0 0;
 }
@@ -24,9 +28,12 @@
 .myProjects {
   background-color:rgba(238, 238, 238);
   top: 500px;
-  height: 5000px;
-  min-width: 100%;
+  height: auto;
   padding: 50px 0 0 0;
+}
+
+.projectLocation {
+  margin: 0 auto;
 }
 
 .aboutMe {
@@ -65,20 +72,34 @@
 
 .footer {
   background-color: white;
-  /* top: 850px; */
   height: 200px;
   padding: 40px 10% 0 10%;
 }
 
-.image {
-  height: 237px;
-  padding-top: '56.25%';
-}
-
 .project {
-  margin: 0 0 2% 30%;
+  margin: 0 auto 2% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.cards {
-  max-width: 480px;
+.media {
+  height: auto;
+  width: 480px;
+}
+
+.cardHeader {
+  text-align: center;
+}
+
+.image {
+  height: 240px;
+  width: 480px;
+  margin: 2% auto;
+}
+
+.content {
+  height: auto;
+  width: 480px;
 }
